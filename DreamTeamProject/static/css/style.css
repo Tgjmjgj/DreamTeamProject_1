@@ -84,3 +84,23 @@ body {
 	background-color: peru;
 	margin-left: 20%;
 }
+=======
+
+.nav a {padding: 0;
+    text-align: center;
+    }
+    .dream{
+        padding: 0;
+        
+    }
+    .logo {width: 228px;
+    height: 100px;
+background-color: aquamarine;    
+}
+
+header {
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 104px;
+}
