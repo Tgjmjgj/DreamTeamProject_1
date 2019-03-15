@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Unosquare.Labs.EmbedIO;
+using Unosquare.Labs.EmbedIO.Constants;
 using Unosquare.Labs.EmbedIO.Modules;
 
 namespace DreamTeamProject
@@ -16,12 +17,15 @@ namespace DreamTeamProject
         {
             var url = "http://localhost:9696/";
 
-            using (var server = new WebServer(url))
+            using (var server = new WebServer(url, RoutingStrategy.Regex))
             {
                 server.WithLocalSession();
                 server.RegisterModule(new StaticFilesModule(StaticFilesRootPath));
                 server.Module<StaticFilesModule>().UseRamCache = true;
-                
+
+                server.RegisterModule(new WebApiModule());
+                server.Module<WebApiModule>().RegisterController<AccountController>();
+
                 server.RunAsync();
 #if DEBUG
                 var browser = new System.Diagnostics.Process()
