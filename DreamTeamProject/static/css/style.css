@@ -4,3 +4,17 @@ body {
     height: 100%;
     margin: 0;
 }
+footer {
+	width: 100%;
+	background: grey;
+	flex: 0 0 50px;
+}
+.listh{
+	background-color:#F6F:
+	height:30px;
+}
+
+.list{
+	background-color:#6FF;
+	height:200px;
+}
