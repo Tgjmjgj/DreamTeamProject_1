@@ -1,6 +1,86 @@
-﻿html,
+﻿
 body {
     width: 100%;
     height: 100%;
     margin: 0;
+    padding: 0;
+}
+.top{
+	width: 100%;
+	margin: 0 auto;
+}
+.lw{
+	width: 11%;
+	background-color: grey;
+	height: 471px;
+	display: inline-block;
+	border: 0;
+	
+}
+.cf{
+	width: 58.5%;
+	background-color: brown;
+	height: 471px;
+	display: inline-block;
+	border: 0;
+}
+.rw{
+	width: 29.7%;
+	background-color: grey;
+    height: 471px;
+    display: inline-block;
+    border: 0;
+}
+.mid{
+	margin: 0 auto;
+	width: 100%;
+
+	height: 200px;
+}
+.lm{
+	height: 170px;
+	width: 46.5%;
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+}
+.mid h3{
+	margin-top: 0;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.lcm{
+	position: relative;
+
+	background-color: silver;
+	height: 150px;
+	width: 300px;
+	vertical-align: top;
+	display: inline-block;
+	
+}
+.rcm{
+	width: 280px;
+	height: 385px;
+	display: inline-block;
+	background-color: tan;
+	vertical-align: top;
+}
+.rm{
+	width: 5%;
+	display: inline-block;
+	vertical-align: top;
+	height: 185px;
+}
+.def{
+	position: relative;
+	top: -150px;
+	left: 40px;
+	margin-bottom: -150px;
+}
+.solo{
+	height: 485px;
+	width: 40%;
+	background-color: peru;
+	margin-left: 20%;
 }
