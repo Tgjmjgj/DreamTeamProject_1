@@ -5,16 +5,54 @@ body {
     margin: 0;
 }
 footer {
+	
+	
+	color: #FFF;
+	display: flex;
 	width: 100%;
-	background: grey;
-	flex: 0 0 50px;
+	height: 280px;
+	background: rgb(49, 68, 52);
+	padding: 30px;
+	flex-direction:column;
 }
-.listh{
-	background-color:#F6F:
-	height:30px;
+a{
+	color: #FFF !important;
+	text-decoration:none;
+}
+#block1{
+	font-size: 22px;
+	display: flex;
+	margin: 0 auto;
+	
+}
+#block2{
+	font-size: 16px;
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+#d1{
+	text-align: center;
+	height: 150px;
+	width: 300px;
+	border-right: 2px solid  #FFF;
+	
+}
+#d2{
+	
+	text-align: center;
+	width: 300px;
+	height: 150px;
+	border-right: 2px solid #FFF;
+	
+}
+#d3{
+	font-size: 19px;
+	vertical-align: middle;
+	text-align: center;
+	width: 300px;
+	height: 100px;
+	padding-top: 40px;
+	
 }
 
-.list{
-	background-color:#6FF;
-	height:200px;
-}
