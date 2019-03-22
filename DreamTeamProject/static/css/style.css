@@ -1,8 +1,122 @@
-﻿html,
+﻿
 body {
     width: 100%;
     height: 100%;
     margin: 0;
+    padding: 0;
+}
+
+.matrix{
+	height: 602px;
+}
+.matrica{
+	position: absolute;
+	width: 100%;
+	height: 602px;
+	background-image: url("../../design/img/backgroundMatrix.jpg");
+
+}
+.police{
+	background-image: url("../../design/img/mrSmith.jpg");
+	position: absolute;
+	left: 150px;
+	height: 602px;
+	width: 388px;
+}
+
+.fototext{
+	display: flex;
+	height: 449px;
+	width: 100%;
+	background-color:#C7ECD0;
+}
+
+.foto{
+	background-image: url("../../design/img/ourTeam2.jpg");
+	width: 538px;
+	height: 449px;
+	position: absolute;
+	
+	background-size: cover;
+}
+.text{
+	position: absolute;
+	left: 538px;
+	top: 722px;
+	width: 594px;
+	height: 449px;
+	background-color:#F0F0F0;
+	
+}
+
+.inform{
+	height: 257px;
+	width: 100%;
+	display: flex;
+	background-color: #D1EBD0;
+}
+.blog{
+	position: relative;
+	top: 0px;
+	left: 386px;
+	width: 152px;
+	height: 147px;
+	background-color: #B1A399;
+}
+.sowety{
+	width: 454px;
+	height: 257px;
+	background-color: #A3C82F;
+	position: relative;
+	top: 0px;
+	left: 386px;
+}
+
+.java{
+	height: 470px;
+	width: 100%;
+	background-color: #C7ECD0;
+}
+.javafoto{
+	
+	position: absolute;
+	left: 50px;
+	height: 470px;
+	width: 749px;
+	background-image: url("../../design/img/programmingLanguages.jpg");
+	background-position: right center;
+	background-size: contain;
+}
+
+.fot{
+	height: 728px;
+	display: flex;
+	background-color: #C7ECD0;
+}
+
+.uslugi{
+	height: 147px;
+	width: 147px;
+	position: absolute;
+	left: 605px;
+	background-color: #A3C82F;
+}
+.razrab{
+	height: 279px;
+	width: 383px;
+	position: absolute;
+	left: 753px;
+	background-color: #F0F0F0;
+}
+.foto3{
+	height: 563px;
+	width: 470px;
+	position: absolute;
+	left: 283px;
+	top: 2063px;
+	background-image: url("../../design/img/webDesign.jpg");
+	
+	background-size: cover;
 }
 footer {
 	
@@ -55,4 +169,3 @@ a{
 	padding-top: 40px;
 	
 }
-
